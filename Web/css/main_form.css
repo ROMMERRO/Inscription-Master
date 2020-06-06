@@ -1,0 +1,47 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .3s all ease-in-out;
+}
+.main_form{
+  position: absolute;
+  width: 80%;
+  top: 13%;
+  left: 10%;
+}
+.field, .main_form input[type="submit"]{
+  margin-top: 7px
+}
+.field label{
+  float: left;
+}
+.main_form input{
+  height: 32px;
+  background-color: #eeeeee;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  color: #393e46;
+  font-family: 'Baloo_Bhaina_2','Baloo Bhaina 2', monospace;
+  text-align: center;
+}
+.main_form input:hover, .main_form input:focus{
+  border-color: #393e46;
+  border-radius: 3px
+}
+.field input{
+  width: 50%;
+  float: right;
+  font-size: 16px
+}
+.field input::placeholder{
+  color: #393e46;
+  font-family: 'Baloo Bhaina 2', monospace;
+  text-align: center;
+  opacity: 50%
+}
+.main_form input[type="submit"]{
+  width: 100%;
+  font-size: 18px;
+  cursor: pointer;
+}
